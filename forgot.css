@@ -1,0 +1,37 @@
+* {
+    margin-top: 2px;
+  }
+  body {
+    margin: 0vh;
+    padding: 0vh;
+    background:#75a3a3;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-family: sans-serif;
+  }
+  
+  .main {
+    position: relative;
+    margin: 7% auto;
+    height: 20vh;
+    width: 32vh;
+    background: darkslategrey;
+    box-shadow: 0vh 0.3vh 0.6vh rgba(0, 0, 0, 0.6);
+  }
+
+  .form{
+    padding: 3vh;
+  }
+
+
+button, input {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  #alert {
+    display: none;
+    color: red;
+    margin-bottom: 10px;
+  }
